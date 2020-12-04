@@ -207,3 +207,22 @@ div.scoreboard {
 .seed-container input{
 		vertical-align: middle;
 }
+
+#container {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  min-width: 600px;
+}
+#container div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
