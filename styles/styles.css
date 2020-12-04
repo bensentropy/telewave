@@ -213,6 +213,8 @@ div.scoreboard {
 }
 #container div {
   display: inline-block;
+	width: 21px;
+    margin-left: -10px;
 }
 #container:after {
   content: '';
