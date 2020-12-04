@@ -210,11 +210,12 @@ div.scoreboard {
 
 #container {
   text-align: justify;
+	margin-left: -5px
 }
 #container div {
   display: inline-block;
 	width: 21px;
-    margin-left: -10px;
+    
 }
 #container:after {
   content: '';
